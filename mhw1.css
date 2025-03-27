@@ -1,0 +1,395 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: calc(51vw - 520px);
+    margin-right: calc(51vw - 520px);
+    margin-top: 6.5%;
+    padding: 0;
+    font-size: 12px;
+    background-color: rgb(202, 33, 33);
+    color: #004595;
+}
+
+.Stile2{
+    text-align: center;
+    padding: 10px 10px 0px 0px;
+    background-color: #fff;
+    font-size: 10px;
+    color: #004595;
+}
+
+#nav1 {
+    display: flex;
+    color: #004595;
+    text-align: center;
+    border: 1px dotted #33333377;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+}
+
+#pagine{
+    list-style: none;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+#pagine li {
+    display: inline;
+    margin-right: 17px;
+}
+
+#pagine li a {
+    color: #004595;
+    text-decoration: none;
+}
+
+#channel{
+    font-weight: bolder;
+    font-size: 1.05em;
+}
+
+.container {
+    
+    width: 100%;
+    margin: 0;
+}
+
+.logo {
+    background-color: #004595;
+    margin: 0px;
+    padding: 24px 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.logo img {
+    height: 62%;
+    width: auto;
+}
+
+#nav2 {
+    color: #004595;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: #cccc;
+    align-items: center;
+}
+
+#menu li {
+    display: flex;
+    margin: 0;
+    border : 1px solid #33333377;
+    padding: 5px 8px;
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li a {
+    color: #00336e;
+    text-decoration: none;
+}
+
+#cerca {
+    padding: 10px 0;
+}
+
+#content {
+    display:flex;
+    flex-direction: row;
+    padding: 0 0;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top : 1px;
+}
+
+#prima{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 620px;
+    margin-bottom: 17px;
+}
+
+#prima img{
+    width: 620px;
+    height: 300px;
+}
+
+#prima h2{
+    margin-bottom: 0px;
+}
+
+#prima p{
+    margin-bottom: 5px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin: 0 0 0 0;
+    width: auto;
+    font-size: 12px;
+    justify-content: right;
+}
+
+.box{
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 10px;
+    margin-left: 20px;
+
+}
+
+.box img {
+    width: 94%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#categorie {
+    display: none;
+}
+
+.box2 {
+    margin-bottom: 37px;
+    margin-left: 25px;
+    padding: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    font-weight: bold;
+}
+
+.box2 img {
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.box2 a {
+    line-height: 1.6em;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+.seconda {
+    width: 620px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding: 0;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.seconda img {
+    margin: 15px;
+    margin-left: 0px;
+    width: 200px;
+    height: 100px;
+}
+
+.seconda h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+}
+
+.seconda p {
+    line-height: 1.4em;
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+
+#sx .dettagli {
+    font-weight: bold;
+    font-size: 0.9em;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #cccc;
+}
+
+#cerca #barra{
+    width: 210px;
+    height: 20px;
+    border-radius: 12px;
+    font-size: 0.95em;
+}
+
+#cerca button {
+    height: 25px;
+    border-radius: 12px;
+    background-color: #00000077;
+    color: #fff;
+    margin-right: 12px;
+    font-size: 0.95em;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 1040px) {
+    body {
+        font-size: 19px;
+        margin-left: -1px;
+        margin-right: -1px;
+        margin-top: 0px;
+        background-color: #333;
+    }
+
+    #content {
+        flex-direction: column;
+    }
+
+    #prima {
+        width: 100%;
+    }
+
+    .seconda {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .seconda img {
+        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .seconda h2 {
+        font-size: 1.5em;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .seconda p {
+        padding: 15px;
+        font-size: 19px;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #nav1 {
+        flex-wrap: wrap;
+        text-align: center;
+        padding-bottom: 0;
+        font-size: calc(2.6vw);
+        height: auto;
+    }
+
+    #pagine {
+        white-space: nowrap;
+    }
+
+    #pagine li {
+        margin-right: 2%;
+    }
+
+    #categorie {
+        display: block;
+    }
+
+    #cerca {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #barra {
+        height: 25px;
+    }
+
+    #cerca button {
+        height: 30px;
+        margin-bottom: -10px;
+    }
+
+    #categorie {
+        display: block;
+        height: 40px;
+        width: 100px;
+        font-size: 0.8em;
+        margin-bottom: -10px;
+    }
+
+    #nav2 {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 5px;
+        display: none;
+    }
+
+    #menu {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    #prima {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding: auto;
+    }
+
+    .logo img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
